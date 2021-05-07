@@ -1,0 +1,16 @@
+project.ext {
+    releaseVersion = '1.2.6'
+    releaseVersionCode = 14
+    fuplayerPublishEnabled = true
+    publicForTest = true
+
+    minSdkVersion = 17
+    targetSdkVersion = 30
+    compileSdkVersion = 30
+    buildToolsVersion = "30.0.3"
+    supportLibraryVersion = '28.0.0'
+
+//    exolayerVersion = '2.11.4'
+    exolayerVersion = '2.13.3'
+}
+
