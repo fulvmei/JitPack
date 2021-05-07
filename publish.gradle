@@ -1,0 +1,20 @@
+if (project.ext.has("fuplayerPublishEnabled")
+        && project.ext.fuplayerPublishEnabled) {
+//    apply plugin: 'bintray-release'
+    apply plugin: 'com.github.panpf.bintray-publish'
+    publish {
+        artifactId = releaseArtifact
+        desc = releaseDescription
+        publishVersion = releaseVersion
+        repoName = 'fuplayer'
+        userOrg = 'fu-cheng'
+        groupId = 'com.chengfu.android.fuplayer'
+        website = 'https://github.com/fulvmei/FuPlayer.git'
+    }
+}
+
+def getRepoName() {
+    boolean publicForTest = project.ext.has("publicForTest") && project.ext.publicForTest.toBoolean()
+    return publicForTest ? 'fuplayer-test' : 'fuplayer'
+}
+
