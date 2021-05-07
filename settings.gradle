@@ -1,3 +1,4 @@
+include ':two'
 include ':one'
 include ':app'
 rootProject.name = "JitPack"
