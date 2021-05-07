@@ -1,4 +1,4 @@
 include ':two'
 include ':lib:one'
 include ':app'
-rootProject.name = "JitPack"
+rootProject.name = "jitpack"
