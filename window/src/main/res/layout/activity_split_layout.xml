@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplitLayoutActivity">
+
+    <androidx.window.sample.SplitLayout
+        android:id="@+id/split_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        custom:startViewId="@+id/start_layout"
+        custom:endViewId="@+id/end_layout"
+        android:padding="5dp">
+        <include
+            android:id="@id/start_layout"
+            layout="@layout/split_layout_content" />
+        <include
+            android:id="@id/end_layout"
+            layout="@layout/split_layout_control" />
+    </androidx.window.sample.SplitLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

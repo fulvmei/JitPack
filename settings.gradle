@@ -1,3 +1,5 @@
+include ':window-samples'
+include ':window'
 include ':two'
 include ':library:core'
 include ':app'
