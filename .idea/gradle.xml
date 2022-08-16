@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/lib1" />
             <option value="$PROJECT_DIR$/lib2" />
+            <option value="$PROJECT_DIR$/mylibrary" />
           </set>
         </option>
       </GradleProjectSettings>

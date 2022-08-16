@@ -2,3 +2,4 @@ include ':app'
 rootProject.name = "jitpack"
 include ':lib1'
 include ':lib2'
+include ':mylibrary'
