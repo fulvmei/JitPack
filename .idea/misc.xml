@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ChengFu/AndroidStudioProjects/JitPack/app/src/main/res/drawable/ic_launcher_background.xml" value="0.181" />
+        <entry key="..\:/ChengFu/AndroidStudioProjects/JitPack/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/ChengFu/AndroidStudioProjects/JitPack/app/src/main/res/layout/activity_test.xml" value="0.4466666666666667" />
+        <entry key="..\:/ChengFu/AndroidStudioProjects/JitPack/app/src/main/res/layout/fragment_list.xml" value="0.10343087790111" />
+        <entry key="..\:/ChengFu/AndroidStudioProjects/JitPack/app/src/main/res/layout/fragment_test.xml" value="0.19519927536231885" />
+        <entry key="..\:/ChengFu/AndroidStudioProjects/JitPack/app/src/main/res/layout/item_list.xml" value="0.19519927536231885" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

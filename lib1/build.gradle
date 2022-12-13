@@ -10,3 +10,4 @@ java {
 dependencies {
     api project(path: ':lib2')
 }
+
